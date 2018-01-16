@@ -13,10 +13,11 @@
     "chai": "^4.1.2",
     "gulp": "^3.9.1",
     "gulp-cli": "^2.0.0",
-    "mocha": "^4.1.0",
-    "vinyl-source-stream": "^2.0.0",
     "jsdom": "^11.5.1",
-    "jsdom-global": "^3.0.2"
+    "jsdom-global": "^3.0.2",
+    "mocha": "^4.1.0",
+    "nightwatch": "^0.9.19",
+    "vinyl-source-stream": "^2.0.0"
   },
   "babel": {
     "presets": [
@@ -24,6 +25,7 @@
     ]
   },
   "scripts": {
-    "test": "mocha --watch --compilers js:babel-register public/test/index.js"
+    "test": "mocha --watch --compilers js:babel-register public/test/index.js",
+    "functional-test": "./node_modules/.bin/nightwatch"
   }
 }
