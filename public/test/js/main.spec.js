@@ -2,19 +2,27 @@
  * Main test module
  */
 
+ // Import jsdom-global module so we can use window and document object within our tests
+import jsdom from 'jsdom-global';
+
 // Module
 import Person from '../../js/class/person';
 
 // Suite
-describe('Module',() => {
+describe('Module', () => {
+    
+    // Invoke the jsdom constructor
+    jsdom();
 
-  // Test
-  it('is available',() => {
-    expect(Person).not.to.be.null;
-  });
-  // Test
-  it('it works :)',() => {
-    console.log(new Person())
-  });
+    it('is available', () => {
+        expect(Person).not.to.be.null;
+    });
+    
+    // Testing of jsdom, so we can see that we are now able to create/modify dom elements.
+    it('jsdom works :)', () => {
+        const div = document.createElement('div')
+        expect(div.nodeName).eql('DIV');
+        console.log(div);
+    });
 
 });

@@ -37,4 +37,6 @@ gulp.task("build", function () {
 });
 
 //Default task. This will be run when no task is passed in arguments to gulp
-gulp.task("default", ["copyStaticFiles", "build"]);
+gulp.task("default", ["copyStaticFiles", "build"],()=>{
+    gulp.watch(["./public/js/**/*.js"], ["build"]);
+});
