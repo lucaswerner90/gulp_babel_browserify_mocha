@@ -1,4 +1,4 @@
 node_modules
 build
-reports
+public/test/functional/reports
 *.log
