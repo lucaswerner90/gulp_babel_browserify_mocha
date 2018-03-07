@@ -13,7 +13,7 @@
         "start_session":true,
         "port": 4444,
         "cli_args": {
-            "webdriver.chrome.driver": "./public/test/functional/lib/chromedriver/chromedriver"
+            "webdriver.chrome.driver": "node_modules/.bin/chromedriver"
         }
     },
 
