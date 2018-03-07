@@ -17,7 +17,8 @@
     "jsdom-global": "^3.0.2",
     "mocha": "^4.1.0",
     "nightwatch": "^0.9.19",
-    "vinyl-source-stream": "^2.0.0"
+    "vinyl-source-stream": "^2.0.0",
+    "selenium-server-standalone-jar": "3.9.1"
   },
   "babel": {
     "presets": [
@@ -26,6 +27,6 @@
   },
   "scripts": {
     "test": "mocha --watch --compilers js:babel-register public/test/index.js",
-    "functional-test": "./node_modules/.bin/nightwatch"
+    "functional-test": "node_modules/.bin/nightwatch"
   }
 }
