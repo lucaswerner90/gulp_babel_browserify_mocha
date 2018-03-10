@@ -3,7 +3,7 @@
 Template project that contains a ready-to-go JS project.
 This project is mainly focused on the use of JS latests technologies, that sometimes is difficult to setup or takes a long.
 ## Installation
->You can use either [Yarn](https://yarnpkg.com/) or [NPM](https://www.npmjs.com/) to install all the packages
+You can use either [Yarn](https://yarnpkg.com/) or [NPM](https://www.npmjs.com/) to install all the packages
 ```javascript
 yarn
 ```
@@ -11,7 +11,7 @@ yarn
 npm install
 ```
 ## Project structure
->The initial structure will give you something like:
+The initial structure will give you something like:
 ```
 PROJECT
 
@@ -42,22 +42,22 @@ PROJECT
       │   person.ts
 ```
 ## Use of the template
->To start working with the template, just **install the packages and execute**
+To start working with the template, just **install the packages and execute**
 ```javascript
 gulp
 ```
->This will give you a **ready to compile environment**. So you can start coding your own classes and see the final results instantly.
+This will give you a **ready to compile environment**. So you can start coding your own classes and see the final results instantly.
 
->To execute **functional tests**
+To execute **functional tests**
 ```javascript
 yarn run functional-test || npm run functional-test
 ```
->To execute **unit tests**
+To execute **unit tests**
 ```javascript
 yarn run test || npm run test
 ```
 ## Technologies
->In order to use the latests JS technologies, here is the list that contains all the selected technologies for this purpose:
+In order to use the latests JS technologies, here is the list that contains all the selected technologies for this purpose:
  1. [Gulp](https://gulpjs.com/)
  2. [TypeScript](https://www.typescriptlang.org/)
  3. [TSLint](https://palantir.github.io/tslint/) ( AirBnB configuration )
@@ -66,10 +66,10 @@ yarn run test || npm run test
  6. [Mocha](https://mochajs.org/) ( Unit tests )
  7. [Nightwatch](http://nightwatchjs.org/) ( Functional tests )
 ## About the project
->This is an open source project. The final goal is to have a [Yeoman](http://yeoman.io/) package available everywhere.
+This is an open source project. The final goal is to have a [Yeoman](http://yeoman.io/) package available everywhere.
 So, as usual, feel free to collaborate with it.
 ## TODOs
->This is an **outline** version. So, a lot of changes and improvements are needed. Among all of them, some of them have a higher priority:
+This is an **outline** version. So, a lot of changes and improvements are needed. Among all of them, some of them have a higher priority:
 1. Add a gulp webserver to reload the page once a change is detected.
 2. Include gulp SASS compilation within the default task.
 3. Create a PRODUCTION compilation.
