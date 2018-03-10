@@ -75,12 +75,10 @@ This is an open source project. The final goal is to have a [Yeoman](http://yeom
 So, as usual, feel free to collaborate with it.
 ## TODOs
 This is an **outline** version. So, a lot of changes and improvements are needed. Among all of them, some of them have a higher priority:
-1. Add a gulp webserver to reload the page once a change is detected.
-2. Include gulp SASS compilation within the default task.
-3. Create a PRODUCTION compilation.
-4. Include minify for JS files, CSS files and HTML files.
-5. Include TypeScript definition files.
-6. Include Typescript sourcemaps.
+1. Create a PRODUCTION compilation.
+2. Include minify for JS files, CSS files and HTML files.
+3. Include TypeScript definition files.
+4. Include Typescript sourcemaps.
 ## About Me
 >My name is **Lucas Werner** and I'm a **Software Engineer**, working in [Oracle Cloud](https://cloud.oracle.com/), based in Prague. I'm focused on JS technologies (frontend and backend) and I'm passionate about AI and all its applications.
 Feel free to [contact me](https://www.linkedin.com/in/lucas-werner/).

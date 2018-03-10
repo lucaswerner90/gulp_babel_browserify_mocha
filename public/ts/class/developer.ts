@@ -13,7 +13,7 @@ export class Developer extends Person {
    * @type {string[]}
    * @memberof Developer
    */
-  private languages: string[] = ['Javascript', 'Python'];
+  private languages: string[] = [];
   /**
    * Creates an instance of Developer.
    * @param {string} [firstName='Lucas'] 
@@ -21,23 +21,24 @@ export class Developer extends Person {
    * @param {string[]} [languages=[]] 
    * @memberof Developer
    */
-  constructor(firstName:string = 'Lucas', lastName:string = 'Werner', languages:string[]= []) {
+  // tslint:disable-next-line:max-line-length
+  constructor(firstName: string = 'Lucas', lastName: string = 'Werner', languages: string[] = ['Javascript', 'Python']) {       
     super(firstName, lastName);
-    if (languages) this.languages = languages;
+    this.developerLanguages = languages;
   }
   
   get developerLanguages() {
     return this.languages;
   }
   
-  set developerLanguages(v: string[]) {
+  set developerLanguages(newLanguages: string[]) {
     // tslint:disable-next-line:max-line-length
-    if (!v) throw RangeError('Any developer needs at least one language to be considered a developer');
-    this.languages = v;
+    if (!newLanguages.length) throw new RangeError('Any developer needs at least one language to be considered as one');
+    else this.languages = newLanguages;
   }
 
   presentDeveloper(): string {
-    return `${this.fullName} develops in ${this.developerLanguages}`;
+    return `${this.fullName} develops in ${this.developerLanguages.join(' and ')}`;
   }
   
 
