@@ -5,6 +5,9 @@ Created originally by [Lucas Werner](https://www.linkedin.com/in/lucas-werner/).
 Template project that contains a ready-to-go JS project.
 This project is mainly focused on the use of JS latests technologies, that sometimes is difficult to setup or takes a long.
 ## Installation
+```javascript
+git clone https://github.com/lucaswerner90/modernjstemplate
+```
 You can use either [Yarn](https://yarnpkg.com/) or [NPM](https://www.npmjs.com/) to install all the packages
 ```javascript
 yarn

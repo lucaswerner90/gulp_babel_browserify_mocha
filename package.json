@@ -1,5 +1,6 @@
 {
-  "name": "test",
+  "author":"Lucas Werner",
+  "repository": "https://github.com/lucaswerner90/modernjstemplate",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
