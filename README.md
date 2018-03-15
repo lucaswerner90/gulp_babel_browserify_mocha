@@ -79,6 +79,3 @@ This is an **outline** version. So, a lot of changes and improvements are needed
 2. Include minify for JS files, CSS files and HTML files.
 3. Include TypeScript definition files.
 4. Include Typescript sourcemaps.
-## About Me
->My name is **Lucas Werner** and I'm a **Software Engineer**, working in [Oracle Cloud](https://cloud.oracle.com/), based in Prague. I'm focused on JS technologies (frontend and backend) and I'm passionate about AI and all its applications.
-Feel free to [contact me](https://www.linkedin.com/in/lucas-werner/).
