@@ -12,6 +12,7 @@
     "babelify": "^8.0.0",
     "browserify": "^15.2.0",
     "chai": "^4.1.2",
+    "chromedriver": "^2.36.0",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^5.0.0",
     "gulp-cli": "^2.0.0",
